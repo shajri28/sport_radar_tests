@@ -1,0 +1,23 @@
+[
+  {
+    "name": "sabrine",
+    "job": "Software Test  Automation Engineer",
+    "email": "sabrine@reqres.in",
+    "avatar": "https://reqres.in/img/faces/7-image.jpg"
+  },
+  {
+    "name": "Peter",
+    "job": "Software Test  Automation Engineer",
+    "email": "peter@reqres.in"
+  },
+  {
+    "name": "Marcus",
+    "job": "Software Developer",
+    "email": "markus@reqres.in"
+  },
+  {
+    "name": "Claus",
+    "job": "Scrum Master",
+    "email": "klaus@reqres.in"
+  }
+]
