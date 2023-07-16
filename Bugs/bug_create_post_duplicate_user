@@ -1,0 +1,23 @@
+title: BUG: Using the same user data with post request results in duplicate user ids
+
+description:
+Using the same user data with post request results in duplicate user ids instead
+of returning 400 user already exists error
+
+Steps to reproduce:
+1.use /api/users path and post request with payload
+
+{
+    "name": "Marcus",
+    "job": "Software Developer"
+  }
+2. Repeat step 1
+
+Expected Result:
+400 response code is returned with error user already exists
+
+Obtained result Result:
+Same user with a different ID is created
+
+
+

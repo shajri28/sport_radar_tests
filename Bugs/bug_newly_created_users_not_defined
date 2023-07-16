@@ -1,0 +1,22 @@
+title: BUG: The newly created users are not saved
+
+description:
+The newly created users are not saved in the system
+
+Steps to reproduce:
+1.use /api/users path and post request with payload
+
+{
+    "name": "Marcus",
+    "job": "Software Developer"
+  }
+2.  Try to get the user using user id
+
+Expected Result:
+the new user data must be returned
+
+Obtained result Result:
+404 is returned
+
+
+

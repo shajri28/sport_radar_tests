@@ -1,0 +1,28 @@
+title: BUG: the updated user data is not returned by the put/patch api
+
+description:
+the updated user data name/job is not returned by the post api instead the old data is returned
+
+Steps to reproduce:
+1.use /api/users path and post request with payload example
+
+{
+    "name": "Marcus",
+    "job": "Software Developer"
+  }
+2. Update the user using the put/patch request with new data
+
+{
+    "name": "Peter",
+    "job": "Software Architect"
+  }
+
+Expected Result:
+the new name/job should be returned
+
+Obtained result Result:
+the old user data is returned
+
+
+
+
